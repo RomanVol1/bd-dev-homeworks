@@ -18,13 +18,14 @@ status --ответ на задание 1.1
 ![mysql.task1.1](https://github.com/RomanVol1/bd-dev-homeworks/blob/main/06-db-03-mysql/jpg/mysql.task1.1.jpg)
 
 Подключитесь к восстановленной БД и получите список таблиц из этой БД.
+
+**Приведите в ответе** количество записей с `price` > 300.
 ```
 SELECT count(*) FROM orders WHERE price > 300; --здесь получаю ответ на ЗАДАНИЕ 1 вопрос 2
 ```
 
 ![mysql.task1.2](https://github.com/RomanVol1/bd-dev-homeworks/blob/main/06-db-03-mysql/jpg/mysql.task1.2.jpg)
 
-**Приведите в ответе** количество записей с `price` > 300.
 
 В следующих заданиях мы будем продолжать работу с этим контейнером.
 
